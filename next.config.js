@@ -7,4 +7,7 @@ module.exports = withBundleAnalyzer({
   eslint: {
     ignoreDuringBuilds: true,
   },
+  publicRuntimeConfig: {
+    apiURL: 'http://stafflink-be.westeurope.cloudapp.azure.com',
+  },
 });
