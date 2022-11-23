@@ -1,4 +1,4 @@
-import { Title, Text, Anchor } from '@mantine/core';
+import { Title, Text } from '@mantine/core';
 import useStyles from './Welcome.styles';
 import { useSession } from 'next-auth/react';
 import Link from 'next/link';
